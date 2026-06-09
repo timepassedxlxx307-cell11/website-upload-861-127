@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>搜索 - 高清影视</title>
+    <meta name="description" content="搜索手机在线免费观看高清影视，查找热门大片、经典老片、韩剧美剧与在线播放内容。">
+    <meta name="keywords" content="手机在线观看,免费高清影视,热门大片,经典老片,韩剧美剧,在线播放,高清画质,手机观影,影视搜索,影片搜索">
+    <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+    <header class="site-header">
+    <div class="header-inner">
+        <a class="logo" href="./index.html" aria-label="高清影视首页">
+            <span class="logo-mark">影</span>
+            <span>高清影视</span>
+        </a>
+        <nav class="desktop-nav" aria-label="主导航">
+            <a class="" href="./index.html">首页</a>
+            <a class="" href="./categories.html">分类</a>
+            <a class="" href="./ranking.html">排行榜</a>
+            <a class="active" href="./search.html">搜索</a>
+            <a href="./category-hot-movies.html">热门大片</a><a href="./category-classic-films.html">经典老片</a><a href="./category-chinese-cinema.html">华语影剧</a><a href="./category-korean-dramas.html">韩剧专区</a><a href="./category-american-dramas.html">美剧专区</a><a href="./category-suspense-crime.html">悬疑犯罪</a>
+        </nav>
+        <form class="header-search" action="./search.html" method="get">
+            <input type="search" name="q" placeholder="搜索片名、地区、类型" aria-label="搜索影片">
+            <button type="submit">搜索</button>
+        </form>
+        <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+    <nav class="mobile-nav" aria-label="移动导航" data-mobile-nav>
+        <a href="./index.html">首页</a>
+        <a href="./categories.html">分类总览</a>
+        <a href="./ranking.html">排行榜</a>
+        <a href="./search.html">搜索</a>
+        <a href="./category-hot-movies.html">热门大片</a><a href="./category-classic-films.html">经典老片</a><a href="./category-chinese-cinema.html">华语影剧</a><a href="./category-korean-dramas.html">韩剧专区</a><a href="./category-american-dramas.html">美剧专区</a><a href="./category-suspense-crime.html">悬疑犯罪</a><a href="./category-action-adventure.html">动作冒险</a><a href="./category-romance-comedy.html">爱情喜剧</a><a href="./category-family-inspiration.html">家庭励志</a><a href="./category-anime-animation.html">动漫动画</a><a href="./category-documentary-variety.html">纪录综艺</a><a href="./category-global-selection.html">全球精选</a>
+    </nav>
+</header>
+    <main>
+        
+        <section class="page-hero compact-hero search-hero">
+            <div>
+                <span class="eyebrow">全站搜索</span>
+                <h1>搜索高清影视</h1>
+                <p>可按片名、地区、类型、年份、标签和简介快速查找影片。</p>
+            </div>
+            <form class="wide-search search-page-form" action="./search.html" method="get" data-search-form>
+                <input type="search" name="q" placeholder="输入关键词" aria-label="搜索关键词" data-search-input>
+                <button type="submit">搜索</button>
+            </form>
+        </section>
+        <section class="content-section">
+            <div class="section-heading">
+                <div>
+                    <span class="eyebrow">搜索结果</span>
+                    <h2>影片匹配</h2>
+                    <p id="searchStatus">输入片名、类型、地区或年份，快速进入详情页。</p>
+                </div>
+            </div>
+            <div class="movie-grid" id="searchResults"></div>
+        </section>
+    
+    </main>
+    <footer class="site-footer">
+    <div class="footer-inner">
+        <a class="footer-logo" href="./index.html">高清影视</a>
+        <p>手机在线免费观看高清影视，热门大片、经典老片、韩剧美剧一应俱全。免费观看，高清画质，每日更新，手机电脑均可观看。</p>
+        <div class="footer-links">
+            <a href="./index.html">首页</a>
+            <a href="./categories.html">分类</a>
+            <a href="./ranking.html">排行榜</a>
+            <a href="./search.html">搜索</a>
+        </div>
+    </div>
+</footer>
+    <script src="assets/search-data.js" defer></script>
+<script src="assets/site.js" defer></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
